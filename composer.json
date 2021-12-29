@@ -1,6 +1,6 @@
 {
-    "name": "gmj/laravel_block_banner_video_content",
-    "description": "Laravel Block for backend and frontend - need tailwindcss support",
+    "name": "gmj/laravel_block2_video",
+    "description": "Laravel Block2 for backend and frontend - need tailwindcss support",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "GMJ\\LaravelBlockBannerVideoContent\\": "src/"
+            "GMJ\\LaravelBlock2Video\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GMJ\\LaravelBlockBannerVideoContent\\LaravelBlockBannerVideoContentServiceProvider"
+                "GMJ\\LaravelBlock2Video\\LaravelBlock2VideoServiceProvider"
             ]
         }
     }
