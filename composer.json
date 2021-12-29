@@ -1,0 +1,26 @@
+{
+    "name": "gmj/laravel_block_banner_video_content",
+    "description": "Laravel Block for backend and frontend - need tailwindcss support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Lau",
+            "email": "joe.laucw71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GMJ\\LaravelBlockBannerVideoContent\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GMJ\\LaravelBlockBannerVideoContent\\LaravelBlockBannerVideoContentServiceProvider"
+            ]
+        }
+    }
+}
