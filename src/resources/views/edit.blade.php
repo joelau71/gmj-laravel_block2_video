@@ -12,7 +12,7 @@
     <form id="myform" method="POST"
         action="{{ route('LaravelBlock2Video.update', $element_id) }}" class="relative" enctype="multipart/form-data">
 
-        <x-backend.required />
+        <x-admin.atoms.required />
         @csrf
         @method("PATCH")
 
